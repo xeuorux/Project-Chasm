@@ -19,8 +19,8 @@
 17,PINMISSILE,Pin Missile,0C0,25,BUG,Physical,95,20,0,NearOther,0,bef,Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.
 18,TWINEEDLE,Twineedle,0BE,25,BUG,Physical,100,20,20,NearOther,0,bef,The foe is stabbed twice by a pair of stingers. It may also poison the target.
 19,INFESTATION,Infestation,0CF,20,BUG,Special,100,20,0,NearOther,0,abef,The target is infested and unable to flee for four to five turns.
-20,DEFENDORDER,Defend Order,02A,0,BUG,Status,0,10,0,User,0,d,"The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats."
-21,HEALORDER,Heal Order,0D5,0,BUG,Status,0,10,0,User,0,d,The user calls out its underlings to heal it. The user regains up to half of its max HP.
+20,DEFENDORDER,Defend Order,02A,0,NOBLE,Status,0,10,0,User,0,d,"The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats."
+21,HEALORDER,Heal Order,0D5,0,NOBLE,Status,0,10,0,User,0,d,The user calls out its underlings to heal it. The user regains up to half of its max HP.
 22,POWDER,Powder,148,0,BUG,Status,100,20,0,NearOther,0,bcel,The target is covered in a powder that explodes and damages it if it uses a Fire-type move.
 23,QUIVERDANCE,Quiver Dance,02B,0,BUG,Status,0,20,0,User,0,do,"The user performs a beautiful dance. It boosts the user's Sp. Atk, Sp. Def, and Speed stats."
 24,RAGEPOWDER,Rage Powder,117,0,BUG,Status,0,20,0,User,2,l,The user scatters irritating powder to draw attention to itself. Opponents aim only at the user.
@@ -167,7 +167,7 @@
 161,FLYINGPRESS,Flying Press,144,100,FIGHTING,Physical,100,10,0,Other,0,abef,The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.
 162,HAMMERARM,Hammer Arm,03E,100,FIGHTING,Physical,100,10,0,NearOther,0,abefj,"The user swings and hits with its strong and heavy fist. It lowers the user's Speed, however."
 163,JUMPKICK,Jump Kick,10B,100,FIGHTING,Physical,90,10,0,NearOther,0,abef,"The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself."
-164,SACREDSWORD,Sacred Sword,0A9,90,FIGHTING,Physical,100,15,0,NearOther,0,abef,The user attacks by slicing with its long horns. The target's stat changes don't affect the damage.
+164,SACREDSWORD,Sacred Sword,0A9,90,NOBLE,Physical,100,15,0,NearOther,0,abef,The user attacks by slicing with its long horns. The target's stat changes don't affect the damage.
 165,SECRETSWORD,Secret Sword,122,85,FIGHTING,Special,100,10,0,NearOther,0,bef,The user cuts with its long horn. The odd power contained in it does physical damage to the foe.
 166,SKYUPPERCUT,Sky Uppercut,11B,85,FIGHTING,Physical,100,15,0,NearOther,0,abefj,The user attacks the target with an uppercut thrown skyward with force.
 167,AURASPHERE,Aura Sphere,0A5,80,FIGHTING,Special,0,20,0,Other,0,befmn,The user looses a blast of aura power from deep within its body. This move is certain to hit.
@@ -532,7 +532,7 @@
 517,MINIMIZE,Minimize,034,0,NORMAL,Status,0,10,0,User,0,d,"The user compresses its body to make itself look smaller, which sharply raises its evasiveness."
 518,MORNINGSUN,Morning Sun,0D8,0,NORMAL,Status,0,5,0,User,0,d,The user restores its own HP. The amount of HP regained varies with the weather.
 519,NATUREPOWER,Nature Power,0B3,0,NORMAL,Status,0,20,0,NearOther,0,,An attack that makes use of nature's power. Its effects vary depending on the user's environment.
-520,NOBLEROAR,Noble Roar,13A,0,NORMAL,Status,0,30,0,NearOther,0,bcek,"Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk."
+520,NOBLEROAR,Noble Roar,13A,0,NOBLE,Status,0,30,0,NearOther,0,bcek,"Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk."
 521,ODORSLEUTH,Odor Sleuth,0A7,0,NORMAL,Status,0,40,0,NearOther,0,bce,Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.
 522,PAINSPLIT,Pain Split,05A,0,NORMAL,Status,0,20,0,NearOther,0,be,"The user adds its HP to the target's HP, then equally shares the combined HP with the target."
 523,PERISHSONG,Perish Song,000,0,NORMAL,Status,0,5,0,AllBattlers,0,k,"Any Pokémon that hears this song faints in three turns, unless it switches out of battle."
@@ -564,7 +564,7 @@
 549,SWAGGER,Swagger,041,0,NORMAL,Status,85,15,0,NearOther,0,bce,"The user enrages and confuses the target. However, it also sharply raises the target's Attack stat."
 550,SWALLOW,Swallow,114,0,NORMAL,Status,0,10,0,User,0,d,The power stored using the move Stockpile is absorbed by the user to heal its HP.
 551,SWEETSCENT,Sweet Scent,048,0,NORMAL,Status,100,20,0,AllNearFoes,0,bce,"A sweet scent that lowers the foe's evasiveness. It also lures wild Pokémon if used in grass, etc."
-552,SWORDSDANCE,Swords Dance,02E,0,STEEL,Status,0,10,0,User,0,do,A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.
+552,SWORDSDANCE,Swords Dance,02E,0,NOBLE,Status,0,10,0,User,0,do,A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.
 553,TAILWHIP,Tail Whip,043,0,NORMAL,Status,100,30,0,AllNearFoes,0,bce,"The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat."
 554,TEARFULLOOK,Tearful Look,13A,0,NORMAL,Status,0,20,0,NearOther,0,ce,The user gets teary eyed to make the target lose its combative spirit. This lowers the target's Attack and Sp. Atk stats.
 555,TEETERDANCE,Teeter Dance,013,0,NORMAL,Status,100,20,0,AllNearOthers,0,beo,The user performs a wobbly dance that confuses the Pokémon around it.
@@ -576,7 +576,7 @@
 561,YAWN,Yawn,004,0,NORMAL,Status,0,10,0,NearOther,0,bce,The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.
 562,COURTCHANGE,Court Change,17A,0,NORMAL,Status,100,10,0,BothSides,0,e,"With its mysterious power, the user swaps the effects on either side of the field."
 563,STUFFCHEEKS,Stuff Cheeks,183,0,NORMAL,Status,100,10,0,User,0,e,"The user eats its held Berry, then sharply raises its Defense stat."
-564,TEATIME,Teatime,184,0,NORMAL,Status,0,10,0,AllBattlers,0,,The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry.
+564,TEATIME,Teatime,184,0,NOBLE,Status,0,10,0,AllBattlers,0,,The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry.
 565,TERRAINPULSE,Terrain Pulse,18A,50,NORMAL,Special,100,10,0,NearOther,0,befm,Uses the power of the terrain to attack. Type and power changes depending on the terrain.
 #-------------------------------,,,,,,,,,,,,,
 566,BELCH,Belch,158,120,POISON,Special,100,10,0,NearOther,0,bf,The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.
@@ -639,7 +639,7 @@
 622,GRAVITY,Gravity,118,0,GROUND,Status,0,5,0,BothSides,0,,"Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation."
 623,GUARDSPLIT,Guard Split,059,0,PSYCHIC,Status,0,10,0,NearOther,0,b,The user employs its psychic power to average its Defense and Sp. Def stats with those of its target.
 624,GUARDSWAP,Guard Swap,053,0,PSYCHIC,Status,0,10,0,NearOther,0,be,The user employs its psychic power to switch changes to its Defense and Sp. Def with the target.
-625,HEALBLOCK,Heal Block,0BB,0,PSYCHIC,Status,100,15,0,AllNearFoes,0,bce,"For five turns, the foe is prevented from using any moves, Abilities, or held items that recover HP."
+625,HEALBLOCK,Heal Block,0BB,0,NOBLE,Status,100,15,0,AllNearFoes,0,bce,"For five turns, the foe is prevented from using any moves, Abilities, or held items that recover HP."
 626,HEALPULSE,Heal Pulse,0DF,0,PSYCHIC,Status,0,10,0,Other,0,bcm,The user emits a healing pulse which restores the target's HP by up to half of its max HP.
 627,HEALINGWISH,Healing Wish,000,0,PSYCHIC,Status,0,10,0,User,0,d,"The user faints. In return, the Pokémon taking its place will have its HP restored and status cured."
 628,HEARTSWAP,Heart Swap,054,0,PSYCHIC,Status,0,10,0,NearOther,0,be,The user employs its psychic power to switch stat changes with the target.
@@ -863,8 +863,8 @@
 844,SORESPOT,Sore Spot,52A,50,FAIRY,Physical,100,30,0,NearOther,0,abef,"The user gets upset at the target and attacks it. 50% more effective if the user is affected by a status."
 845,HARDFEELINGS,Hard Feelings,52A,80,FAIRY,Physical,100,15,0,NearOther,0,abef,"The user unleashes its anger at the target. 50% more effective if the user is affected by a status."
 846,SOULDRAIN,Soul Drain,52C,30,GHOST,Special,100,20,100,NearOther,0,bef,"The user absorbs the target's soul, lowering its special defense and draining its life in the process."
-847,SHADOWPASS,Shadowpass,52D,40,DARK,Special,100,15,0,AllNearOthers,0,bce,"Darkness rolls over the field, damaging all other Pokémon, ending weather, and healing statuses."
-848,MAJESTICGLARE,Majestic Glare,52B,70,DRAGON,Special,100,15,50,NearOther,0,bef,"The user glares at its target, either confusing or charming it based on which of its attacking stats are higher."
+847,SHADOWPASS,Shasdowpass,52D,40,DARK,Special,100,15,0,AllNearOthers,0,bce,"Darkness rolls over the field, damaging all other Pokémon, ending weather, and healing statuses."
+848,DRACONICGLARE,Majestic Glare,52B,70,DRAGON,Special,100,15,50,NearOther,0,bef,"The user glares at its target, either confusing or charming it based on which of its attacking stats are higher."
 849,ECHOLOCATE,Echolocate,52E,0,FLYING,Status,0,15,0,AllNearFoes,0,bcek,"The user locate's the target with an intense shriek, harshly lowering opponent's defense and evasion. This move can't miss."
 850,WINGSPANECLIPSE,Wingspan Eclipse,52F,0,DRAGON,Status,0,15,0,AllNearFoes,0,bce,"The Pokémon blots out the sky with huge wings, ending weather. It also lowers the opponent's attack."
 851,ALLERGY,Allergy,04D,70,BUG,Special,100,15,100,NearOther,0,bef,"The user makes the target have an allergic reaction. This harshly reduces its speed."
@@ -887,3 +887,18 @@
 868,BLINDINGSAND,Blinding Sand,047,40,GROUND,Special,100,10,100,NearOther,0,bef,The user attacks the opponent by throwing sand at its eyes, reducing accuracy.
 869,PURIFYINGWATER,Purifying Water,019,50,WATER,Special,100,5,0,NearOther,0,bef,"The user shoots purified Water, healing the status problems of all the party Pokémon in the process."
 870,CRITICALERROR,Critical Error,0A0,60,GHOST,Special,100,10,0,NearOther,0,bef,"The user causes a glitch in reality. This attack always results in a critical hit."
+871,SLICE,Slice,000,40,NOBLE,Physical,100,35,0,NearOther,0,abefh,"The user cuts the target. Critical hits land more easily."
+872,RESOLUTESLASH,Resolute Slash,000,60,NOBLE,Physical,100,20,0,NearOther,0,abefh,"TODO. Critical hits land more easily."
+874,LUMINOUSBLADE,Luminous Blade,000,110,NOBLE,Physical,85,5,0,NearOther,0,abefh,"The user attacks with a Blade of light. Critical hits land more easily."
+875,BLUNTSTRIKE,Blunt Strike,000,40,NOBLE,Physical,100,40,0,NearOther,0,abef,A restrained attack with the back of a blade. The target is left with at least 1 HP.
+876,LACKEYSTRIKES,Lackey Strikes,0BD,20,NOBLE,Physical,100,35,0,NearOther,0,bef,"The user sends some lackeys to attack the target, hitting twice."
+877,LOYALRETINUE,Loyal Retinue,0BD,30,NOBLE,Physical,100,20,0,NearOther,0,bef,"The user orders loyal soldiers to attack the target, hitting twice. TODO Movecode."
+878,LEGIONSTRIKE,Legion Strike,0BD,45,NOBLE,Physical,100,15,0,NearOther,0,bef,"The user summons a legion that strikes the target twice. TODO Movecode."
+879,IMPOSE,Impose,00F,40,NOBLE,Special,100,35,10,NearOther,0,be,"TODO"
+880,MAJESTICGLARE,Majestic Glare,00F,70,NOBLE,Special,100,20,30,NearOther,0,be,"TODO"
+881,RIGHTEOUSAURA,Righteous Aura,00F,90,NOBLE,Special,100,15,15,NearOther,0,be,"TODO"
+882,DAYLIGHT,Daylight,400,40,NOBLE,Special,100,35,10,NearOther,0,bef,"TODO"
+883,HALLOWEDPULSE,Hallowed Pulse,400,60,NOBLE,Special,100,20,20,NearOther,0,bef,"TODO"
+884,RADIANCE,Radiance,400,80,NOBLE,Special,100,15,20,NearOther,0,bef,"TODO"
+885,ETERNALLIGHT,Eternal Light,400,110,NOBLE,Special,85,5,10,NearOther,0,bef,"TODO"
+886,TYRANNICALEDICT,Tyrannical Edict,03F,130,NOBLE,Special,100,5,0,NearOther,0,bef,"TODO"
