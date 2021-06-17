@@ -901,9 +901,9 @@
 882,RADIANCE,Radiance,400,80,NOBLE,Special,100,15,20,NearOther,0,bef,"TODO"
 883,ETERNALLIGHT,Eternal Light,400,110,NOBLE,Special,85,5,10,NearOther,0,bef,"TODO"
 884,TYRANNICALEDICT,Tyrannical Edict,03F,130,NOBLE,Special,100,5,0,NearOther,0,bef,"TODO"
-885,VALIANTCHARGE,Valiant Charge,55,NOBLE,Physical,100,30,0,NearOther,0,abef,"TODO"
+885,VALIANTCHARGE,Valiant Charge,0FB,55,NOBLE,Physical,100,30,0,NearOther,0,abef,"TODO"
 886,DEFIANTSTRIKE,Defiant Strike,0FB,85,NOBLE,Physical,100,15,0,NearOther,0,abef,"TODO"
 887,BLAZEOFGLORY,Blaze of Glory,0FB,120,NOBLE,Physical,100,15,0,Other,0,abef,"TODO"
 888,REPRISAL,Reprisal,081,60,NOBLE,Physical,100,10,0,NearOther,-4,abef,An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
 889,ELEGANTASSAULT,Elegant Assault,01D,80,NOBLE,Physical,100,35,30,NearOther,0,bef,"TODO. This has a 30% chance to raise its defense."
-609,PSYCHOBLADE,Psycho Blade,000,90,PSYCHIC,Physical,100,20,0,NearOther,0,befh,The user slashes the target to ribbons with blades formed by psychic power. Critical hits land more easily.
+890,PSYCHOBLADE,Psycho Blade,000,90,PSYCHIC,Physical,100,20,0,NearOther,0,befh,The user slashes the target to ribbons with blades formed by psychic power. Critical hits land more easily.
