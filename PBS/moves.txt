@@ -168,7 +168,7 @@
 162,HAMMERARM,Hammer Arm,03E,100,FIGHTING,Physical,100,10,0,NearOther,0,abefj,"The user swings and hits with its strong and heavy fist. It lowers the user's Speed, however."
 163,JUMPKICK,Jump Kick,10B,100,FIGHTING,Physical,90,10,0,NearOther,0,abef,"The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself."
 164,SACREDSWORD,Sacred Sword,0A9,90,NOBLE,Physical,100,15,0,NearOther,0,abef,The user attacks by slicing with its long horns. The target's stat changes don't affect the damage.
-165,SECRETSWORD,Secret Sword,122,85,FIGHTING,Special,100,10,0,NearOther,0,bef,The user cuts with its long horn. The odd power contained in it does physical damage to the foe.
+165,SECRETSWORD,Secret Sword,122,85,NOBLE,Special,100,10,0,NearOther,0,bef,The user cuts with its long horn. The odd power contained in it does physical damage to the foe.
 166,SKYUPPERCUT,Sky Uppercut,11B,85,FIGHTING,Physical,100,15,0,NearOther,0,abefj,The user attacks the target with an uppercut thrown skyward with force.
 167,AURASPHERE,Aura Sphere,0A5,80,FIGHTING,Special,0,20,0,Other,0,befmn,The user looses a blast of aura power from deep within its body. This move is certain to hit.
 168,SUBMISSION,Submission,0FA,120,FIGHTING,Physical,100,20,0,NearOther,0,abef,The user grabs the target and recklessly dives for the ground. It also hurts the user slightly.
@@ -906,3 +906,4 @@
 887,BLAZEOFGLORY,Blaze of Glory,0FB,120,NOBLE,Physical,100,15,0,Other,0,abef,"TODO"
 888,REPRISAL,Reprisal,081,60,NOBLE,Physical,100,10,0,NearOther,-4,abef,An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
 889,ELEGANTASSAULT,Elegant Assault,01D,80,NOBLE,Physical,100,35,30,NearOther,0,bef,"TODO. This has a 30% chance to raise its defense."
+609,PSYCHOBLADE,Psycho Blade,000,90,PSYCHIC,Physical,100,20,0,NearOther,0,befh,The user slashes the target to ribbons with blades formed by psychic power. Critical hits land more easily.
