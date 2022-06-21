@@ -11,6 +11,7 @@ class Game_Character
 		# @move_speed_real is the number of quarter-pixels to move each frame. There
 		# are 128 quarter-pixels per tile.
 		self.move_speed_real = [3.2,6.4,12.8,25.6,44,64][val-1]
+		self.move_speed_real = 12.8
 	  end
 end
 
